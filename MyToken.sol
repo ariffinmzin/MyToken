@@ -6,7 +6,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contr
 
 contract MyTokenTwo is ERC20 { 
 
-    constructor(uint56 initialSupply) ERC20("Your Token Name", "Your Token Symbol") {
+    constructor(uint256 initialSupply) ERC20("Your Token Name", "Your Token Symbol") {
   
         _mint(msg.sender, initialSupply);
 
